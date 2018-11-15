@@ -3,7 +3,7 @@ digraph shells {
 {
         edge [ style = invis; ]
         node [ shape = plaintext; ]
-        1971 -> "1975-1977" -> 1978 -> 1979 -> "?" -> 1983 -> "1987-1989" -> 1990 -> 1993 -> 1995 -> 1996 ->1999 -> 2002 -> 2005 -> 2006;
+        1971 -> "1975-1977" -> 1978 -> 1979 -> 1983 -> "1987-1989" -> 1990 -> 1993 -> 1995 -> 1996 ->1999 -> 2002 -> 2005 -> 2006;
 }
 
 edge [ style = solid; ]
@@ -16,25 +16,18 @@ Proprietary licenses
 */
 node [ style=filled, color=chartreuse ];
 
-/* https://en.wikipedia.org/wiki/Thompson_shell */
 { rank = same; 1971; "Thompson shell"; }
 
-/* https://en.wikipedia.org/wiki/PWB_shell */
-/* https://grosskurth.ca/bib/1976/mashey-command.pdf */
-/* https://groups.google.com/forum/#!original/net.unix-wizards/k1FW4s0X7jw/4GNAGTPHLXQJ */
 { rank = same; "1975-1977"; "PWB shell"; }
 
-/* https://en.wikipedia.org/wiki/Bourne_shell */
-{ rank = same; 1979; "Bourne shell"; }
+{ rank = same; 1978; "Bourne shell"; }
 
-/* https://en.wikipedia.org/wiki/Plan_9_from_Bell_Labs */
-{ rank = same; "?" ; rc; }
+{ rank = same; "1990" ; rc; }
 
-/* https://en.wikipedia.org/wiki/KornShell */
 { rank = same; 1983; "KornShell"; }
+
 { rank = same; "1987-1989"; "ksh88"; }
 
-/* https://en.wikipedia.org/wiki/KornShell */
 { rank = same; 1993; "ksh93"; }
 
 /*
@@ -44,54 +37,38 @@ Open, free, public licenses
 */
 node [ style=filled, color=plum ];
 
-/* https://en.wikipedia.org/wiki/C_shell */
 { rank = same; 1978; "C shell"; }
 
-/* https://web.archive.org/web/20040216045828/web.cs.mun.ca/~michael/pdksh/ */
-{ rank = same; "?"; "Forsyth shell"; "BRL shell"; }
+{ rank = same; "1987-1989"; "BRL shell"; }
 
-/* https://groups.google.com/forum/?hl=en#!msg/net.sources/BC0V7oosT8k/MKNdzEG_c3AJ */
+{ rank = same; 1978; "Forsyth shell"; }
+
 { rank = same; 1983; tcsh; }
 
-/* https://en.wikipedia.org/wiki/Almquist_shell */
 { rank = same; "1987-1989"; "Almquist shell"; }
 
-/* https://en.wikipedia.org/wiki/KornShell */
 { rank = same; 2005; "ksh93q"; }
 
 { rank = same; 2002; dash; }
 
-/* https://web.archive.org/web/20040216045828/web.cs.mun.ca/~michael/pdksh/ */
-/* https://web.archive.org/web/20040227010520/http://web.cs.mun.ca:80/~michael/pdksh/CONTRIBUTORS */
 { rank = same; "1987-1989"; pdksh; }
 
-/* https://en.wikipedia.org/wiki/Bash_(Unix_shell) */
 { rank = same; "1987-1989"; Bash; }
 
-/* https://stuff.mit.edu/afs/sipb/user/yandros/doc/es-usenix-winter93.html */
-{ rank = same; 1990; es; }
+{ rank = same; 1993; es; }
 
-/* https://groups.google.com/forum/#!msg/alt.sources/tVgN49u8Ax4/7VgQlHZ4bJMJ */
-/* http://zsh.sourceforge.net/FAQ/zshfaq01.html#l1 */
 { rank = same; 1990; zsh; }
 
-/* https://books.google.ca/books?id=O6xQAAAAMAAJ&q=Desktop+Korn+Shell+Graphical+Programming+For+the+Common+Desktop+Environment+Version+1.0&dq=Desktop+Korn+Shell+Graphical+Programming+For+the+Common+Desktop+Environment+Version+1.0&hl=en&sa=X&ved=0ahUKEwjjg9Tp0MXeAhXK34MKHeoZB74Q6AEIKTAA */
 { rank = same; 1995; dtksh; }
 
-/* https://www.usenix.org/legacy/publications/library/proceedings/tcl96/full_papers/korn/index.html */
 { rank = same; 1996; tksh; }
 
-/* https://en.wikipedia.org/wiki/BusyBox */
 { rank = same; 1999; BusyBox; }
 
-/* https://en.wikipedia.org/wiki/MirOS_BSD */
 { rank = same; 2002; mksh; }
 
-/* https://en.wikipedia.org/wiki/toybox */
-/* http://www.landley.net/toybox */
 { rank = same; 2006; toybox; }
 
-/* http://man.openbsd.org/ksh */
 { rank = same; 1996; "OpenBSD ksh"; }
 
 /*
