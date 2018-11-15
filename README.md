@@ -4,7 +4,7 @@
 A history (ahem) of command shells in Unix and Unix-like systems.
 
 Each shell appears at the year that it was first announced to the
-world. For example, the S. R. Bourne describes his shell in the *Bell
+world. For example, S. R. Bourne describes his shell in the *Bell
 System Technical Journal* in 1978 but Bell released it to the world in
 1979 or so.
 
