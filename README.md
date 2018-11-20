@@ -9,7 +9,7 @@ System Technical Journal* in 1978 but Bell released it to the world in
 1979 or so.
 
 A shell uses a solid, black arrow to point to the shell that it
-borrows source code from. A shell uses a dashed, grey arrows to point
+borrows source code from. A shell uses a dashed, grey arrow to point
 to a shell that influences it.
 
 A plum-coloured shell has an open, free, or public license. 
