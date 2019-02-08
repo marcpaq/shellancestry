@@ -8,9 +8,10 @@ world. For example, S. R. Bourne describes his shell in the *Bell
 System Technical Journal* in 1978 but Bell released it to the world in
 1979 or so.
 
-A shell uses a solid, black arrow to point to the shell that it
+A shell uses a solid, black arrow to point to a shell that it
 borrows source code from. A shell uses a dashed, grey arrow to point
-to a shell that influences it.
+to a shell that the former attempts to be compatible with while not 
+using the latter's source code.
 
 A plum-coloured shell has an open, free, or public license. 
 
@@ -19,7 +20,8 @@ announced. Source for many formerly-closed shells are now available for us
 to look at. For example, Bell Labs released to source code to UNIX,
 available in a few links below.
 
-The authors of a shell are the people credited at the time of the shell's announcement. 
+The authors of a shell are the people credited at the time of the shell's 
+announcement. 
 
 ![Shell ancestry](shellancestry.svg)
 
