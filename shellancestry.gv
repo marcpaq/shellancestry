@@ -1,115 +1,113 @@
 digraph shells {
-
-{
-        edge [ style = invis; ]
-        node [ shape = plaintext; ]
-        1971 -> "1975-1977" -> 1978 -> 1979 -> 1983 -> "1987-1989" -> 1990 -> 1993 -> 1995 -> 1996 ->1999 -> 2002 -> 2005 -> 2006;
-}
-
-edge [ style = solid; ]
-node [ shape = box; ]
-
-/*
-
-Proprietary licenses
-
-*/
-node [ style=filled, color=chartreuse ];
-
-{ rank = same; 1971; "Thompson shell"; }
-
-{ rank = same; "1975-1977"; "PWB shell"; }
-
-{ rank = same; 1978; "Bourne shell"; }
-
-{ rank = same; "1990" ; rc; }
-
-{ rank = same; 1983; "KornShell"; }
-
-{ rank = same; "1987-1989"; "ksh88"; }
-
-{ rank = same; 1993; "ksh93"; }
-
-/*
-
-Open, free, public licenses
-
-*/
-node [ style=filled, color=plum ];
-
-{ rank = same; 1978; "C shell"; }
-
-{ rank = same; "1987-1989"; "BRL shell"; }
-
-{ rank = same; 1978; "Forsyth shell"; }
-
-{ rank = same; 1983; tcsh; }
-
-{ rank = same; "1987-1989"; "Almquist shell"; }
-
-{ rank = same; 2005; "ksh93q"; }
-
-{ rank = same; 2002; dash; }
-
-{ rank = same; "1987-1989"; pdksh; }
-
-{ rank = same; "1987-1989"; Bash; }
-
-{ rank = same; 1993; es; }
-
-{ rank = same; 1990; zsh; }
-
-{ rank = same; 1995; dtksh; }
-
-{ rank = same; 1996; tksh; }
-
-{ rank = same; 1999; BusyBox; }
-
-{ rank = same; 2002; mksh; }
-
-{ rank = same; 2006; toybox; }
-
-{ rank = same; 1996; "OpenBSD ksh"; }
-
-/*
-
-Uses source code from
-
-*/
-edge [ style = solid; color = black; ];
-
-"Bourne shell" -> "Thompson shell";
-"BusyBox" -> "Almquist shell";
-"KornShell" -> "Bourne shell";
-"OpenBSD ksh" -> "pdksh";
-"PWB shell" -> "Thompson shell";
-"dash" -> "Almquist shell";
-"dtksh" -> "ksh93";
-"ksh88" -> "KornShell";
-"ksh93" -> "KornShell";
-"ksh93q" -> "ksh93";
-"mksh" -> "pdksh";
-"pdksh" -> "BRL shell";
-"pdksh" -> "Forsyth shell";
-"rc" -> "Bourne shell";
-"tcsh" -> "C shell";
-"tksh" -> "ksh93";
-
-/*
-
-Influenced by/clean reimplementation of
-
-*/
-edge [ style = dashed; color = grey; ];
-
-"pdksh" -> ksh88;
-"zsh" -> KornShell;
-"zsh" -> tcsh;
-"Forsyth shell" -> "Bourne shell" ;
-"Bash" -> "Bourne shell";
-"Almquist shell" -> "Bourne shell";
-"C shell" -> "Thompson shell";
-"es" -> "rc";
-"toybox" -> BusyBox;
-
+        {
+                edge [ style = invis; ]
+                node [ shape = plaintext; ]
+                1971 -> "1975-1977" -> 1978 -> 1979 -> 1983 -> "1987-1989" -> 1990 -> 1993 -> 1995 -> 1996 ->1999 -> 2002 -> 2005 -> 2006;
+        }
+        
+        edge [ style = solid; ]
+        node [ shape = box; ]
+        
+        /*
+        
+        Proprietary licenses
+        
+        */
+        node [ style=filled, color="#355269", fontcolor="white" ];
+        
+        { rank = same; 1971; "Thompson shell"; }
+        
+        { rank = same; "1975-1977"; "PWB shell"; }
+        
+        { rank = same; 1978; "Bourne shell"; }
+        
+        { rank = same; "1990" ; rc; }
+        
+        { rank = same; 1983; "KornShell"; }
+        
+        { rank = same; "1987-1989"; "ksh88"; }
+        
+        { rank = same; 1993; "ksh93"; }
+        
+        /*
+        
+        Open, free, public licenses
+        
+        */
+        node [ style=filled, color="#A87A54", fontcolor="white" ];
+        
+        { rank = same; 1978; "C shell"; }
+        
+        { rank = same; "1987-1989"; "BRL shell"; }
+        
+        { rank = same; 1978; "Forsyth shell"; }
+        
+        { rank = same; 1983; tcsh; }
+        
+        { rank = same; "1987-1989"; "Almquist shell"; }
+        
+        { rank = same; 2005; "ksh93q"; }
+        
+        { rank = same; 2002; dash; }
+        
+        { rank = same; "1987-1989"; pdksh; }
+        
+        { rank = same; "1987-1989"; Bash; }
+        
+        { rank = same; 1993; es; }
+        
+        { rank = same; 1990; zsh; }
+        
+        { rank = same; 1995; dtksh; }
+        
+        { rank = same; 1996; tksh; }
+        
+        { rank = same; 1999; BusyBox; }
+        
+        { rank = same; 2002; mksh; }
+        
+        { rank = same; 2006; toybox; }
+        
+        { rank = same; 1996; "OpenBSD ksh"; }
+        
+        /*
+        
+        Uses source code from
+        
+        */
+        edge [ style = solid; color = black; ];
+        
+        "Bourne shell" -> "Thompson shell";
+        "BusyBox" -> "Almquist shell";
+        "KornShell" -> "Bourne shell";
+        "OpenBSD ksh" -> "pdksh";
+        "PWB shell" -> "Thompson shell";
+        "dash" -> "Almquist shell";
+        "dtksh" -> "ksh93";
+        "ksh88" -> "KornShell";
+        "ksh93" -> "KornShell";
+        "ksh93q" -> "ksh93";
+        "mksh" -> "pdksh";
+        "pdksh" -> "BRL shell";
+        "pdksh" -> "Forsyth shell";
+        "rc" -> "Bourne shell";
+        "tcsh" -> "C shell";
+        "tksh" -> "ksh93";
+        
+        /*
+        
+        Influenced by/clean reimplementation of
+        
+        */
+        edge [ style = dashed; color = grey; ];
+        
+        "pdksh" -> ksh88;
+        "zsh" -> KornShell;
+        "zsh" -> tcsh;
+        "Forsyth shell" -> "Bourne shell" ;
+        "Bash" -> "Bourne shell";
+        "Almquist shell" -> "Bourne shell";
+        "C shell" -> "Thompson shell";
+        "es" -> "rc";
+        "toybox" -> BusyBox;
 }
