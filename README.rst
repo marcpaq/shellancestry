@@ -14,19 +14,19 @@ the world in 1979 or so.
 `Pull requests <https://github.com/marcpaq/shellancestry>`_ are
 encouraged and welcome.
 
-.. figure:: {static}/images/shellancestry.gv.svg
+.. figure:: shellancestry.gv.svg
    :alt: Shell family tree
 
-.. |borrow| image:: {static}/images/borrow-arrow.gv.svg
+.. |borrow| image:: borrow-arrow.gv.svg
             :width: 100px
 
-.. |clean| image:: {static}/images/clean-arrow.gv.svg
+.. |clean| image:: clean-arrow.gv.svg
             :width: 100px
 
-.. |closed| image:: {static}/images/closed-license.gv.svg
+.. |closed| image:: closed-license.gv.svg
             :width: 100px
 
-.. |open| image:: {static}/images/open-license.gv.svg
+.. |open| image:: open-license.gv.svg
             :width: 100px
 
 
