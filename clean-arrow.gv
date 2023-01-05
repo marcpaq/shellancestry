@@ -1,0 +1,6 @@
+digraph "clean-arrow" {
+        edge [ style = dashed; color = grey; ];
+        node [ shape = box; ]
+        rankdir = "LR";
+        "a" -> "b";
+}

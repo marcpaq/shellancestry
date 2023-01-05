@@ -1,0 +1,4 @@
+digraph "open-license" {
+        node [ shape = box, style=filled, color="#A87A54", fontcolor="white" ];
+        " ";
+}

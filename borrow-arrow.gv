@@ -1,0 +1,6 @@
+digraph "borrow-arrow" {
+	edge [ style = solid; color = black; ]
+        node [ shape = box; ]
+        rankdir = "LR";
+        "a" -> "b";
+}
