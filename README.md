@@ -10,18 +10,18 @@ System Technical Journal* in 1978 but Bell released it to the world in
 
 A shell uses a solid, black arrow to point to a shell that it
 borrows source code from. A shell uses a dashed, grey arrow to point
-to a shell that the former attempts to be compatible with while not 
+to a shell that the former attempts to be compatible with while not
 using the latter's source code.
 
-A plum-coloured shell has an open, free, or public license. 
+A plum-coloured shell has an open, free, or public license.
 
 A green shell had a proprietary or closed license at the time that it was
 announced. Source for many formerly-closed shells are now available for us
 to look at. For example, Bell Labs released to source code to UNIX,
 available in a few links below.
 
-The authors of a shell are the people credited at the time of the shell's 
-announcement. 
+The authors of a shell are the people credited at the time of the shell's
+announcement.
 
 ![Shell ancestry](shellancestry.svg)
 
@@ -38,7 +38,7 @@ https://en.wikipedia.org/wiki/Almquist_shell
 
 Author: Brian Fox
 
-https://en.wikipedia.org/wiki/Bash_(Unix_shell)
+https://www.gnu.org/software/bash/
 
 
 ## Bourne shell
