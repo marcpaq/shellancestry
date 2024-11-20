@@ -110,6 +110,6 @@ edge [ style = dashed; color = grey; ];
 "Almquist shell" -> "Bourne shell";
 "C shell" -> "Thompson shell";
 "es" -> "rc";
-"toybox" -> BusyBox;
+"toybox" -> "Bash";
 
 }
