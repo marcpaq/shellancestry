@@ -23,7 +23,7 @@ available in a few links below.
 The authors of a shell are the people credited at the time of the shell's
 announcement.
 
-![Shell ancestry](shellancestry.svg)
+![Shell ancestry](shellancestry.gv.svg)
 
 ## Almquist shell
 
@@ -187,6 +187,10 @@ Author: Robert Landley
 https://en.wikipedia.org/wiki/toybox
 
 http://www.landley.net/toybox
+
+https://youtu.be/SGmtP5Lg_t0
+
+https://youtu.be/MkJkyMuBm3g
 
 
 ## zsh
